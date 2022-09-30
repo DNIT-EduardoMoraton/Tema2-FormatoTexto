@@ -27,33 +27,30 @@ namespace Tema2_FormatoTexto
 
         private void mainInputTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if (mainOutputTextBlock != null)
                 mainOutputTextBlock.Text = mainInputTextBox.Text;
         }
 
         private void boldCheckBox_Checked(object sender, RoutedEventArgs e)
         {
-            if (mainOutputTextBlock != null)
                 mainOutputTextBlock.FontWeight = FontWeights.Bold;
         }
 
         private void boldCheckBox_Unchecked(object sender, RoutedEventArgs e)
         {
-            if (mainOutputTextBlock != null)
                 mainOutputTextBlock.FontWeight = FontWeights.Normal;
         }
 
         private void ItalicCheckBox_Checked(object sender, RoutedEventArgs e)
         {
-            if (mainOutputTextBlock != null)
                 mainOutputTextBlock.FontStyle = FontStyles.Italic;
         }
 
         private void ItalicCheckBox_Unchecked(object sender, RoutedEventArgs e)
         {
-            if (mainOutputTextBlock != null)
                 mainOutputTextBlock.FontStyle = FontStyles.Normal;
         }
+
+        // Colores
 
         private void colorAzulRadioButton_Checked(object sender, RoutedEventArgs e)
         {
